@@ -1,0 +1,5 @@
+com\kik\bot\api\model\IncomingMessage.class
+com\kik\bot\api\model\Message.class
+com\kik\bot\api\model\Bot.class
+com\kik\bot\api\model\Main.class
+com\kik\bot\api\model\UserProfile.class

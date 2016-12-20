@@ -1,4 +1,4 @@
-package com.kik.bot.api.model;
+package kik.messages;
 
 import java.util.Date;
 
@@ -10,7 +10,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Message {
-	
+
 	String from;
 	String id;
 	String chatId;
@@ -38,84 +38,73 @@ public class Message {
 	boolean muted;
 	boolean autoPlay;
 	boolean NoSave;
-	//User[] participants;
+	// User[] participants;
 	String mention;
-	//[]picked;
+	// []picked;
 
-	
-//	public static String text() {
-//		
-//	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-//	
-//	public boolean isTextMessage() {
-//
-//	}
-//
-//	public boolean isLinkMessage() {
-//
-//	}
-//
-//	public boolean isPictureMessage() {
-//
-//	}
-//
-//	public boolean isVideoMessage() {
-//
-//	}
-//
-//	public boolean isStartChattingMessage() {
-//
-//	}
-//
-//	public boolean isScanDataMessage() {
-//	}
-//
-//	public boolean isFriendPickerMessage() {
-//	}
-//
-//	public boolean isStickerMessage() {
-//
-//	}
-//
-//	public boolean isIsTypingMessage() {
-//
-//	}
-//
-//	public boolean isDeliveryReceiptMessage() {
-//
-//	}
-//
-//	public boolean isReadReceiptMessage() {
-//
-//	}
-//
-//	public boolean isMention() {
-//
-//	}
-//
-//	public Object toJson() {
-//
-//	}
+	// public static String text() {
+	//
+	// }
+
+	//
+	// public boolean isTextMessage() {
+	//
+	// }
+	//
+	// public boolean isLinkMessage() {
+	//
+	// }
+	//
+	// public boolean isPictureMessage() {
+	//
+	// }
+	//
+	// public boolean isVideoMessage() {
+	//
+	// }
+	//
+	// public boolean isStartChattingMessage() {
+	//
+	// }
+	//
+	// public boolean isScanDataMessage() {
+	// }
+	//
+	// public boolean isFriendPickerMessage() {
+	// }
+	//
+	// public boolean isStickerMessage() {
+	//
+	// }
+	//
+	// public boolean isIsTypingMessage() {
+	//
+	// }
+	//
+	// public boolean isDeliveryReceiptMessage() {
+	//
+	// }
+	//
+	// public boolean isReadReceiptMessage() {
+	//
+	// }
+	//
+	// public boolean isMention() {
+	//
+	// }
+	//
+	// public Object toJson() {
+	//
+	// }
 
 	public void addTextResponse(String Message) {
 
 	}
 
-	//TODO
-//	public void addResponseKeyboard(suggestions, [isHidden],[user]) {
-//		
-//	}
+	// TODO
+	// public void addResponseKeyboard(suggestions, [isHidden],[user]) {
+	//
+	// }
 
 	public String getFrom() {
 		return from;
@@ -152,12 +141,12 @@ public class Message {
 	public String getType() {
 		return type;
 	}
-	
-	//TODO
 
-//	public User[] getParticipants() {
-//		return participants;
-//	}
+	// TODO
+
+	// public User[] getParticipants() {
+	// return participants;
+	// }
 
 	public String[] getMessageIds() {
 		return messageIds;

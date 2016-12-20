@@ -1,4 +1,4 @@
-package com.kik.bot.api.model;
+package kik.bot.api;
 
 public class Bot {
 	String userName;

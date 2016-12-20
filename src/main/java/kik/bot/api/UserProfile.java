@@ -1,4 +1,4 @@
-package com.kik.bot.api.model;
+package kik.bot.api;
 
 import java.util.Date;
 
